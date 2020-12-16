@@ -6,9 +6,11 @@ git clone https://github.com/gamingbeast36/Youter
 
 cd Youter
 
-Install pip 
+sudo apt install python3-pip
 
-sudo python setup.py
+For installing pip in other distros please refer to https://www.tecmint.com/install-pip-in-linux/
+
+sudo python3 setup.py
 
 sudo python3 youter.py
 
