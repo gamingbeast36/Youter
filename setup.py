@@ -4,6 +4,7 @@ subprocess.run(['sudo', 'pip3', 'install', 'youtube-dl'])
 subprocess.run(['sudo', 'pip3', 'install', 'requests'])
 try:
     subprocess.run(['sudo', 'apt', 'install', 'ffmpeg'])
+    subprocess.run(["sudo", "pacman", "-S", "ffmpeg"])
 except:
     print("Unable to install dependency")
     print("Please install ffmpeg and add it to path")
